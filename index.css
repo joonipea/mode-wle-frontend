@@ -1,0 +1,32 @@
+#loginContainer {
+    height: 100vh;
+    padding: 50px;
+}
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#loginForm input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#loginForm input:focus {
+    border-color: #333;
+}
+
+#loginForm input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#loginForm input[type="submit"]:hover {
+    background-color: #555;
+}
